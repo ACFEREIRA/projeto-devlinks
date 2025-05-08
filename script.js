@@ -1,14 +1,14 @@
-function toggleMode(){
+function toggleMode() {
   const html = document.documentElement
   html.classList.toggle("light")
 
   const img = document.querySelector("#profile img")
 
-  if(html.classList.contains("light")){
-   img.setAttribute("src", "./assets/avatar-light.png")
-   img.setAttribute("alt", "Foto perfil sorrindo camisa preta e fundo azul.")
+  if (html.classList.contains("light")) {
+    img.setAttribute("src", "./assets/avatar_matos.png")
+    img.setAttribute("alt", "Logo da agencia com fundo preto e escrita branca.")
   } else {
-    img.setAttribute("src", "./assets/avatar.png")
-    img.setAttribute("alt", "Foto perfil sorrindo camisa preta e fundo amarelo.")
+    img.setAttribute("src", "./assets/avatar_matos.png")
+    img.setAttribute("alt", "Logo da agencia com fundo preto e escrita branca.")
   }
 }
